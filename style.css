@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*
+{
+    font-family: "Nunito", sans-serif;
+    padding:0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#nav
+{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#left img{
+    height: 100px;
+    object-fit: cover;
+}
+#right
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#right h4{
+    font-family: "Mooli", sans-serif;
+    font-weight:bold;
+}
+#content
+
+{
+    display: flex;
+    justify-content: space-between;
+}
+#hero img
+{
+    height:70vh;
+    width: 50vw;
+    object-fit: cover;
+}
+#content-left h1{
+    padding: 100px 50px;
+    font-size: 50px;
+    font-weight: 800;
+}
+#button
+{
+    display: flex;
+    gap: 20px;
+    padding:50px;
+}
+#button button
+{
+    border: none;
+    width:150px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: large;
+    background-color: orange;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#page-2
+{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+}
+#page-2 h1
+{
+    margin: 20px;
+    
+}
+#cards
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 30px;
+}
+#card1
+{
+    height: 350px;
+    width: 300px;
+}
+#card1 img
+{
+    height: 100px;
+    width: 100px;
+}
+#card1 h1{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+#images_sec
+{
+    display: flex;
+    gap: 13px;
+    margin: 50px 0px;
+}
+#images_sec img
+{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#phone
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#leftp
+{
+    height: 100vh;
+    width: 50vw;
+    margin: 10px;
+}
+#leftp img
+{
+   height: 450px;
+   width: 250px;
+   margin-left:  300px;
+}
+#rightp
+{
+margin: 10px;
+}
+#rightp img
+{
+    height: 70px;
+    width: 70px;
+}
+#rightp h2
+{
+    font-weight: 400;
+    padding: 20px;
+    font-size: 20px;
+}
+#download
+{
+    display: flex;
+    gap: 10px;
+}
+#download img
+{
+    height: 50px;
+    width: 150px;
+}
+#cities h1{
+    text-align: center;
+    margin-bottom:50px;
+}
+#img-city
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#citycards img
+{
+    height: 150px;
+    width:250px;
+    border-radius: 5px;
+}
+#citycards h2
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+#citycards p i
+
+{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+#citycards
+{
+    height: 250px;
+    width: 300px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+#customers h1{
+    text-align: center;
+    padding: 50px;
+}
+#cardcs
+{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    
+}
+#cardc
+{
+    height: 210px;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(241, 225, 225);
+    border-radius: 10px;
+}
+#cardc i{
+    font-weight: bold;
+    font-size: x-large;
+}
+#cardc p
+{
+    letter-spacing: 1.5;
+    padding: 10px;
+    font-style: italic;
+}
+#cardc img{
+    height: 55px;
+    width:55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#imgtxt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#sub h1
+{
+    text-align: center;
+    font-weight: 500;
+}
+#cardssub h1
+{
+    text-align: left;
+    color: orangered;
+
+}
+#one
+{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}
+#one p{
+    margin-top: 10px;
+}
+#cardssub
+{
+    background-color: rgb(249, 220, 220);
+    padding:10px 50px;
+    border-radius: 10px;
+}
+#cardssub h5
+{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#cardssub button
+{
+    border: none;
+    height: 50px;
+    width: 150px;
+    background-color: orangered;
+    color: wheat;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#reg h1
+{
+    text-align: center;
+}
+#details
+{
+    padding: 20px;
+    align-items: center;
+}
+#two
+{
+    margin-left: 500px;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    text-align: center;
+}
+#two input{
+    height: 25px;
+    width: 300px;
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 120px;
+}
+#two textarea{
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    margin-left: 78px;
+    height: 25px;
+    width: 300px;
+}
+#two select
+{
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+}
+#details button
+{
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-color: orangered;
+    color: wheat;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 700px;
+}
+#bgblack
+{
+    background-color: rgb(101, 99, 99);
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+}
+#downnav
+{
+    display: flex;
+    justify-content: space-between;
+}
+#lef
+{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+#lef h4
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+#righ
+{
+    margin-top: 50px;
+}
+#righ i
+{
+    margin-top: 50px;
+    font-size: 30px;
+    padding-right: 30px;
+}
